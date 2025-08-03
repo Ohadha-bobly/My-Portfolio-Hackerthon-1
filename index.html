@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- Created By Geoffrey Ohadha Oduor -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Geoffrey Ohadha - Full-stack developer specializing in accessible web development, Laravel, Python, and digital inclusion." />
+    <meta name="keywords" content="web developer, accessibility, full-stack, React, Laravel, Django, WCAG, inclusive design" />
+    <meta name="author" content="Geoffrey Ohadha Oduor" />
+    <title>Geoffrey Ohadha | Portfolio</title>
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css" />
+    <!--These are external fonts and icons only no other libraries used-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="images/leap9.jpg" />
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main" class="skip">Skip to main content</a>
+        
+    <!-- Header with navigation -->
+    <header class="header-with-bg">
+        <div class="navbar-container">
+            <nav class="navbar" role="navigation" aria-label="Main navigation">
+                <div class="max-width">
+                    <div class="logo">
+                        <a href="#home" aria-label="Geoffrey Ohadha Oduor Portfolio Home">
+                            Portfo<span>lio.</span>
+                        </a>
+                    </div>
+                     
+                    <!-- Hamburger menu checkbox (hidden) -->
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+                                                   
+                    <!-- Hamburger menu button -->
+                    <label for="menu-toggle" class="menu-btn" tabindex="0" role="button" aria-label="Toggle navigation menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </label>
+                                    
+                    <!-- Menu overlay for closing -->
+                    <div class="menu-overlay"></div>
+                                    
+                    <ul class="menu" role="menubar">
+                        <li role="none"><a href="#home" role="menuitem" aria-current="page">Home</a></li>
+                        <li role="none"><a href="#about" role="menuitem">About</a></li>
+                        <li role="none"><a href="#education" role="menuitem">Education</a></li>
+                        <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
+                        <li role="none"><a href="#projects" role="menuitem">Projects</a></li>
+                        <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+        
+    <!-- Main content area -->
+    <main id="main">
+        <!-- home section start -->
+        <section class="home" id="home" aria-label="Hero section">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hi, my beautiful name is</div>
+                    <div class="text-2">Geoffrey Ohadha</div>
+                    <div class="text-3">And 
+                        <span class="typing-container" aria-live="polite" aria-atomic="true">
+                            <span class="typing-text">I'm a Developer</span>
+                            <span class="typing-text">I'm an ADA Tester</span>
+                            <span class="typing-text">I'm a Web Designer</span>
+                            <span class="typing-text">I'm a Youtuber</span>
+                            <span class="typing-text">I'm a Blogger</span>
+                            <span class="cursor" aria-hidden="true">|</span>
+                        </span>
+                    </div>
+                    <a href="#contact" class="cta-button">Hire me</a>
+                </div>
+            </div>
+        </section>
+                
+        <!-- about section start -->
+        <section class="about" id="about" aria-label="About Geoffrey">
+            <div class="max-width">
+                <h2 class="title">About me</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <picture>
+                            <img src="/images/jeff.png" alt="Geoffrey Ohadha Oduor - headshot" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="column right">
+                        <div class="text">I'm Geoffrey and 
+                            <span class="typing-container-about" aria-live="polite" aria-atomic="true">
+                                <span class="typing-text-about">I am a Developer</span>
+                                <span class="typing-text-about">I am an ADA Tester</span>
+                                <span class="typing-text-about">I am a Web Designer</span>
+                                <span class="typing-text-about">I am a KM Manager</span>
+                                <span class="typing-text-about">I am a Youtuber</span>
+                                <span class="cursor-about" aria-hidden="true">|</span>
+                            </span>
+                        </div>
+                                                
+                        <p>
+                            I am a passionate and skilled software tester with a strong background in building and testing accessible, inclusive, and scalable digital solutions. I have contributed to several high-impact web projects, including the Technoprise, InABLE, Kenya Dairy Board, and TVETA websites, among others.                        
+                        </p>
+                        <p>
+                            In addition to public-facing platforms, I have also been involved in the development and testing of internal-use systems such as Knowledge Management, Retention, and a Café Ordering System. In total, I have directly contributed to more than 10 websites across various organizations, each tailored to meet both usability and accessibility standards.
+                        </p>
+                        <p>
+                            My strengths lie in both software development and testing, with hands-on experience using tools and technologies like HTML5, CSS3, SCSS, Laravel, Bootstrap, Tailwind, GitHub, and Rally. I am a firm advocate for digital inclusivity and consistently integrate WCAG-compliant features into every project I work on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <!-- education section start -->
+        <section class="education" id="education" aria-label="Education Background">
+            <div class="max-width">
+                <h2 class="title">Education Background</h2>
+                <div class="education-content">
+                    <div class="column left">
+                        <div class="education-item">
+                            <div class="degree-icon">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <div class="degree-info">
+                                <h3>Bsc. Information Technology</h3>
+                                <h4>Maasai Mara University</h4>
+                                <span class="duration">Sep 2015 – Dec 2019</span>
+                                <p>Specialized in Information and Communication Technology with focus on software development, data systems, and digital solutions.</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="education-item">
+                            <div class="degree-icon">
+                                <i class="fas fa-certificate" aria-hidden="true"></i>
+                            </div>
+                            <div class="degree-info">
+                                <h3>Certificate in Software Development</h3>
+                                <h4>Power Learn Project</h4>
+                                <span class="duration">2025</span>
+                                <p>Pursuing advanced training in modern software development methodologies and frameworks (ongoing)</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="education-item">
+                            <div class="degree-icon">
+                                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="degree-info">
+                                <h3> Cert. in Digital Accessibility Testing </h3>
+                                <h4>Dept. of Homeland Security</h4>
+                                <span class="duration">Jan 2022 – Nov 2023</span>
+                                <p>Specialized training in WCAG compliance and accessibility testing methodologies.</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="download-section">
+                            <a href="/images/Geoffrey Ohadha Oduor CV.pdf" class="download-cv" download>
+                                <i class="fas fa-download" aria-hidden="true"></i>
+                                Download My CV
+                            </a>
+                        </div>
+                    </div>
+                                        
+                    <div class="column right">
+                        <div class="interests-section">
+                            <h3>Interests</h3>
+                            <div class="interests-grid">
+                                <div class="interest-item">
+                                    <i class="fas fa-code" aria-hidden="true"></i>
+                                    <div class="interest-content">
+                                        <h4>Web Development</h4>
+                                        <p>Exploring modern frameworks and best practices in full-stack development.</p>
+                                    </div>
+                                </div>
+                                                                
+                                <div class="interest-item">
+                                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                                    <div class="interest-content">
+                                        <h4>Tech Innovations</h4>
+                                        <p>Keeping up with emerging trends in technology and digital transformation.</p>
+                                    </div>
+                                </div>
+                                                                
+                                <div class="interest-item">
+                                    <i class="fas fa-universal-access" aria-hidden="true"></i>
+                                    <div class="interest-content">
+                                        <h4>Digital Accessibility</h4>
+                                        <p>Advocating for inclusive design and WCAG compliance in all digital solutions.</p>
+                                    </div>
+                                </div>
+                                                                
+                                <div class="interest-item">
+                                    <i class="fas fa-book-reader" aria-hidden="true"></i>
+                                    <div class="interest-content">
+                                        <h4>Continuous Learning</h4>
+                                        <p>Reading novels, storytelling, and exploring new technologies and methodologies.</p>
+                                    </div>
+                                </div>
+                                                                
+                                <div class="interest-item">
+                                    <i class="fas fa-music" aria-hidden="true"></i>
+                                    <div class="interest-content">
+                                        <h4>Music & Travel</h4>
+                                        <p>Listening to music and traveling to gain new perspectives and inspiration.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <!-- skills section start -->
+        <section class="skills" id="skills" aria-label="My skills">
+            <div class="max-width">
+                <h2 class="title">My skills</h2>
+                <div class="skills-content">
+                    <div class="column left">
+                        <div class="text">My creative skills & experiences.</div>
+                        <p>
+                            I am a passionate and detail-oriented aspiring software engineer with hands-on experience in building responsive, accessible, and user-centered digital experiences. My technical toolkit includes modern technologies such as HTML5, CSS3, SCSS, and server-side languages like PHP, and I am currently expanding my knowledge further.
+                        </p>
+                        <p>
+                            I take pride in creating clean, maintainable designs that align with web standards and prioritize both performance and usability across devices. My work is rooted in the principles of web accessibility (WCAG) and inclusive design, ensuring that all users,regardless of ability or device can access and navigate the websites I contribute to with ease.
+                        </p>
+                        <p>
+                            I also place strong emphasis on semantic markup, responsive layouts, and progressive enhancement to deliver consistent, high-quality user experiences.
+                        </p>
+                        <p>Beyond technical implementation, I enjoy solving real-world problems through thoughtful UI/UX design and efficient code architecture. I continuously seek to grow my expertise through ongoing training in modern software development practices and am always exploring new tools and techniques to improve the quality and impact of my work.</p>
+                    </div>
+                    <div class="column right">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3 / SCSS / Tailwind / Bootstrap</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">20%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="20"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP & Laravel</span>
+                                <span class="skill-percentage">30%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="30"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python & Django</span>
+                                <span class="skill-percentage">10%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="10"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">GitHub / Rally / Jira</span>
+                                <span class="skill-percentage">40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Accessibility Testing</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <!-- projects section start with carousel -->
+        <section class="projects" id="projects" aria-label="My Notable Projects">
+            <div class="max-width">
+                <h2 class="title">My Projects</h2>
+                                
+                <!-- CSS-only carousel -->
+                <div class="project-carousel" role="region" aria-label="Project showcase carousel">
+                    <!-- Radio buttons for navigation - now visible for keyboard access -->
+                    <input type="radio" name="project-slide" id="project-slide-1" checked aria-label="First project - Maasai Mara Game Tracking System">
+                    <input type="radio" name="project-slide" id="project-slide-2" aria-label="Second project - TVETA ERP System">
+                    <input type="radio" name="project-slide" id="project-slide-3" aria-label="Third project - Document Management System">
+                                        
+                    <!-- Carousel slides -->
+                    <div class="carousel-slides">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <article class="card">
+                                <div class="box">
+                                    <div class="project-icon">
+                                        <i class="fas fa-paw" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="text">Maasai Mara Game Tracking System</h3>
+                                    <p>Created a comprehensive wildlife tracking system during university that significantly improved data entry efficiency and wildlife monitoring capabilities for the Maasai Mara ecosystem.</p>
+                                    <ul class="tech-stack">
+                                        <li><span class="tech">HTML</span></li>
+                                        <li><span class="tech">PHP</span></li>
+                                        <li><span class="tech">MySQL</span></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                                                
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <article class="card">
+                                <div class="box">
+                                    <div class="project-icon">
+                                        <i class="fas fa-user-graduate" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="text">TVETA ERP System</h3>
+                                    <p>Built a comprehensive client registration ERP system that streamlined the admission intake process, improving efficiency and user experience for educational institution management.</p>
+                                    <ul class="tech-stack">
+                                        <li><span class="tech">PHP</span></li>
+                                        <li><span class="tech">Laravel</span></li>
+                                        <li><span class="tech">Bootstrap</span></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                                                
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <article class="card">
+                                <div class="box">
+                                    <div class="project-icon">
+                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="text">Document Management System</h3>
+                                    <p>Developed an internal Document Management System (DMS) for Kenya Dairy Board to streamline document workflows, enhance security, and improve organizational efficiency.</p>
+                                    <ul class="tech-stack">
+                                        <li><span class="tech">HTML5</span></li>
+                                        <li><span class="tech">PHP</span></li>
+                                        <li><span class="tech">MySQL</span></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                                        
+                    <!-- Navigation arrows -->
+                    <div class="carousel-nav">
+                        <label for="project-slide-3" class="nav-btn prev" role="button" aria-label="Previous project" tabindex="0">
+                            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                        </label>
+                        <label for="project-slide-2" class="nav-btn next" role="button" aria-label="Next project" tabindex="0">
+                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        </label>
+                    </div>
+                                        
+                    <!-- Dot indicators -->
+                    <div class="carousel-dots">
+                        <label for="project-slide-1" class="dot" aria-label="Show Game Tracking System" tabindex="0" role="button"></label>
+                        <label for="project-slide-2" class="dot" aria-label="Show TVETA ERP System" tabindex="0" role="button"></label>
+                        <label for="project-slide-3" class="dot" aria-label="Show Document Management System" tabindex="0" role="button"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <!-- contact section start -->
+        <section class="contact" id="contact" aria-label="Contact information">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        <h3>Get in Touch</h3>
+                        <p>We see our customers as invited guests to a party, and we are the hosts. It's our job to make the customer experience a little bit better</p>
+                                                
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <i class="fas fa-user" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Geoffrey Ohadha</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">Nairobi, Kenya</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">
+                                        <a href="mailto:gohadha@gmail.com">gohadha@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="head">Telephone</div>
+                                    <div class="sub-title">
+                                        <a href="tel:+254798813541">+254798813541</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                
+                        <!-- Social Media Links -->
+                        <div class="social-links">
+                            <h4>Connect with me</h4>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="https://github.com/Ohadha-bobly" target="_blank" rel="noopener noreferrer" aria-label="Visit Geoffrey Ohadha Oduor GitHub profile">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://web.facebook.com/geoffrey.gibson.31" target="_blank" rel="noopener noreferrer" aria-label="Visit Geoffrey Ohadha Oduor Facebook profile">
+                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/stupid_genius_1" target="_blank" rel="noopener noreferrer" aria-label="Visit Geoffrey's X (Twitter) profile">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer" aria-label="Join my Discord server">
+                                        <i class="fab fa-discord" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                                        
+                    <!-- Contact form -->
+                    <div class="column right">
+                        <h3>Message me</h3>
+                        <form action="https://formspree.io/f/mblkkvqe" method="POST">
+                            <input type="hidden" name="_subject" value="New message from portfolio site">
+                            <input type="hidden" name="_next" value="#contact">
+                            <input type="hidden" name="_captcha" value="false">
+                                                        
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Name <span class="required" aria-label="required">*</span></label>
+                                    <input type="text" id="name" name="name" autocomplete="name" placeholder="Enter your name" required minlength="2">
+                                    <span class="error-message" id="name-error" role="alert"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email <span class="required" aria-label="required">*</span></label>
+                                    <input type="email" id="email" name="_replyto" autocomplete="email" placeholder="Enter your email" required>
+                                    <span class="error-message" id="email-error" role="alert"></span>
+                                </div>
+                            </div>
+                                                        
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required" aria-label="required">*</span></label>
+                                <input type="text" id="subject" name="subject" placeholder="Enter message subject" required minlength="3">
+                                <span class="error-message" id="subject-error" role="alert"></span>
+                            </div>
+                                                        
+                            <div class="form-group">
+                                <label for="message">Message <span class="required" aria-label="required">*</span></label>
+                                <textarea id="message" name="message" rows="6" placeholder="Enter your message here..." required minlength="10"></textarea>
+                                <span class="error-message" id="message-error" role="alert"></span>
+                            </div>
+                                                        
+                            <div class="form-submit">
+                                <button type="submit" class="submit-btn">
+                                    Send message
+                                </button>
+                                <button type="reset" class="reset-btn">
+                                    Clear form
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        
+    <!-- footer section start -->
+    <footer role="contentinfo" aria-label="Footer section with copyright">
+        <div class="max-width">
+            <p>
+                Created By <a href="/images/MY COMMITMENT TO YOU.pdf" aria-label="Geoffrey Ohadha Oduor value statement" download>Geoffrey&nbsp;Ohadha</a> | 
+                <span class="far fa-copyright" aria-hidden="true"></span> 2025 All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
