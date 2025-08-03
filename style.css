@@ -1,6 +1,6 @@
 /* CSS Custom Properties (Variables) - Enhanced for consistency */
 :root {
-  /* Colors - Consistent palette */
+  /* Colors for consistent palette */
   --primary-color: #dc143c; /* crimson */
   --secondary-color: #dc143c; /* crimson for consistency */
   --dark-color: #000;
@@ -10,7 +10,7 @@
   --text-color: #111; /* Darker for better visibility */
   --bg-color: #222;
 
-  /* Typography - Consistent font system */
+  /* Typography for consistent font system */
   --font-primary: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-secondary: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-size-xs: 0.75rem;
@@ -24,7 +24,7 @@
   --font-size-5xl: 3rem;
   --font-size-6xl: 3.75rem;
 
-  /* Spacing system */
+  /* Spacing system for text spacing compliance with WCAG */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
@@ -70,7 +70,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Remove default link styling */
+/* Removing default link styling */
 a {
   text-decoration: none;
   color: inherit;
@@ -160,7 +160,7 @@ section {
   transform: translateX(-50%);
 }
 
-/* Header with background image and creative navbar integration */
+/* Header with background image and navbar */
 .header-with-bg {
   background: url("/images/banner-bg.jpg") no-repeat center;
   background-size: cover;
@@ -169,7 +169,7 @@ section {
   padding-top: 30px;
 }
 
-/* Add a subtle gradient overlay to blend navbar seamlessly */
+/* A subtle gradient overlay to blend navbar */
 .header-with-bg::before {
   content: "";
   position: absolute;
@@ -185,7 +185,7 @@ section {
   z-index: 1;
 }
 
-/* FIXED: Navbar container with creative spacing and styling */
+/* Navbar container with creative spacing and styling */
 .navbar-container {
   position: sticky;
   top: 30px;
@@ -207,7 +207,7 @@ section {
   transform: translateY(-2px);
 }
 
-/* FIXED: Enhanced Navbar with container styling */
+/* Navbar with container styling */
 .navbar {
   width: 100%;
   padding: var(--spacing-md) 0;
@@ -264,7 +264,7 @@ section {
   border: var(--dark-color) solid 2px;
 }
 
-/* Enhanced Hamburger Menu with better UX */
+/* Hamburger Menu with proper UX */
 .menu-toggle {
   display: none;
 }
@@ -348,7 +348,7 @@ section {
   opacity: 1;
 }
 
-/* Enhanced Home Section */
+/* Home Section */
 .home {
   display: flex;
   background: url("/images/banner-bg.jpg") no-repeat center;
@@ -522,7 +522,7 @@ section {
   }
 }
 
-/* Cursor styling for home section - matches text-3 sizing */
+/* Cursor styling for home section to match text-3 sizing */
 .cursor {
   color: var(--primary-color);
   animation: blink 1s infinite;
@@ -538,7 +538,7 @@ section {
   height: 1em;
 }
 
-/* Cursor styling for about section - matches about text sizing */
+/* Cursor styling for about section to match about text sizing */
 .cursor-about {
   color: var(--primary-color);
   animation: blink 1s infinite;
@@ -828,7 +828,7 @@ section {
   font-family: var(--font-primary);
 }
 
-/* Enhanced Skills Section */
+/* Skills Section */
 .skills .title::after {
   content: "what i know";
 }
@@ -922,7 +922,7 @@ section {
   }
 }
 
-/* Set skill bar widths */
+/* Setting skill bar widths */
 .skill-progress[data-width="60"] {
   width: 60%;
 }
@@ -947,7 +947,7 @@ section {
   width: 95%;
 }
 
-/* FIXED: Projects Section Styling - Enhanced Carousel Accessibility */
+/* Projects Section Styling - Enhanced Carousel Accessibility */
 .projects {
   color: var(--light-color);
   background: var(--dark-color);
@@ -977,7 +977,7 @@ section {
   margin-bottom: var(--spacing-3xl);
 }
 
-/* FIXED: Carousel with proper accessibility */
+/* Carousel with proper accessibility */
 .project-carousel {
   position: relative;
   max-width: 500px;
@@ -988,7 +988,7 @@ section {
   box-shadow: var(--box-shadow-lg);
 }
 
-/* FIXED: Radio buttons now accessible for keyboard navigation */
+/* Radio buttons now accessible for keyboard navigation */
 .project-carousel input[type="radio"] {
   position: absolute;
   left: -9999px;
@@ -1007,7 +1007,7 @@ section {
   filter: brightness(1.1);
 }
 
-/* Make radio buttons focusable for keyboard navigation */
+/* Making radio buttons focusable for keyboard navigation */
 .project-carousel input[type="radio"]:focus + .carousel-slides,
 .project-carousel input[type="radio"]:focus ~ .carousel-nav,
 .project-carousel input[type="radio"]:focus ~ .carousel-dots {
@@ -1101,7 +1101,7 @@ section {
   color: var(--light-color);
 }
 
-/* FIXED: Enhanced Carousel Navigation with proper keyboard support */
+/* Carousel Navigation with proper keyboard support */
 .project-carousel .carousel-nav {
   position: absolute;
   top: 50%;
@@ -1155,13 +1155,13 @@ section {
   box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.4);
 }
 
-/* Enhanced keyboard support for nav buttons */
+/* Keyboard support for nav buttons */
 .project-carousel .nav-btn:focus-visible {
   outline: 3px solid var(--light-color);
   outline-offset: 3px;
 }
 
-/* FIXED: Carousel dots with proper keyboard accessibility */  
+/* Carousel dots with proper keyboard accessibility */  
 .project-carousel .carousel-dots {
   position: absolute;
   bottom: -50px;
@@ -1198,7 +1198,7 @@ section {
   box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.4);
 }
 
-/* Enhanced focus styles for keyboard navigation */
+/* Focus styles for keyboard navigation */
 .project-carousel .dot:focus-visible {
   outline: 3px solid var(--light-color);
   outline-offset: 3px;
@@ -1226,7 +1226,7 @@ section {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-/* FIXED: Navigation button functionality */
+/* Navigation button functionality */
 /* Previous button logic */
 #project-slide-1:checked ~ .carousel-nav .nav-btn.prev {
   /* When slide 1 is active, prev goes to slide 3 */
@@ -1286,7 +1286,7 @@ section {
   border-color: var(--light-color);
 }
 
-/* Enhanced Contact Section */
+/* Contact Section */
 .contact .title::after {
   content: "get in touch";
 }
@@ -1358,7 +1358,7 @@ section {
   color: var(--dark-color);
 }
 
-/* Enhanced Social Media Links */
+/* Social Media Links */
 .social-links {
   margin-top: var(--spacing-2xl);
 }
@@ -1447,7 +1447,7 @@ section {
   color: var(--light-color);
 }
 
-/* Enhanced Form Styling with WCAG Compliance and HTML5 Validation */
+/* Form Styling with WCAG Compliance and HTML5 Validation */
 .contact .right form {
   background: #f8f9fa;
   padding: var(--spacing-2xl);
@@ -1538,7 +1538,7 @@ section {
   font-family: var(--font-primary);
 }
 
-/* Updated form-submit section */
+/* Form-submit section */
 .form-submit {
   text-align: center;
   margin-top: var(--spacing-xl);
@@ -1580,7 +1580,7 @@ section {
   outline-offset: 2px;
 }
 
-/* Add styling for the reset button */
+/* Adding styling for the reset button */
 .reset-btn {
   background: transparent;
   color: var(--primary-color);
@@ -1611,7 +1611,7 @@ section {
   outline-offset: 2px;
 }
 
-/* Footer Enhancement */
+/* Footer Enhancements */
 footer {
   background: var(--dark-color);
   padding: var(--spacing-xl);
@@ -1671,7 +1671,7 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  /* FIXED: Mobile Navigation */
+  /* Mobile Navigation */
   .menu-btn {
     display: flex;
   }
@@ -1758,7 +1758,7 @@ footer a:hover {
     height: 8px;
   }
 
-  /* FIXED: Responsive navbar container on mobile */
+  /* Responsive navbar container on mobile */
   .navbar-container {
     width: calc(100% - 40px);
     top: 20px;
@@ -1842,7 +1842,7 @@ footer a:hover {
     min-width: min(300px, 85vw);
   }
 
-  /* FIXED: Responsive navbar container on small mobile */
+  /* Responsive navbar container on small mobile */
   .navbar-container {
     width: calc(100% - 20px);
     top: 15px;
@@ -1886,7 +1886,7 @@ footer a:hover {
   }
 }
 
-/* ENHANCED: Focus visible for better keyboard navigation */
+/* Focus visible for better keyboard navigation */
 *:focus-visible {
   outline: 2px solid var(--primary-color);
   outline-offset: 2px;
@@ -1898,8 +1898,6 @@ h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-secondary);
 }
 
-p,
-li,
-span {
+p,li,span {
   font-family: var(--font-primary);
 }
