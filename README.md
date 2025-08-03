@@ -50,3 +50,24 @@ My-Portfolio-Hackerthon-1/
 ├── /pdfs
 ├── README.md
 └── LICENSE
+```
+
+## 🌟 Features
+Mobile-first responsive design
+Semantic HTML and clean structure
+WCAG-aligned accessibility considerations
+Keyboard-navigable contact form
+CV download link
+
+## 🚀 Deployment
+This portfolio is deployed on Vercel.
+👉 Live Demo (https://my-portfolio-hackerthon-1-mkjo97s7n-gohadha-9419s-projects.vercel.app/)
+
+## 💡 How to Use or Clone
+1. Clone the repository:
+git clone https://github.com/Ohadha-bobly/My-Portfolio-Hackerthon-1.git
+
+2. Navigate to the project directory:
+cd My-Portfolio-Hackerthon-1
+
+3. Open index.html in your browser or IDE.
